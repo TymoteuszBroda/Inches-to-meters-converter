@@ -18,7 +18,8 @@
         android:id="@+id/editText_inches"
         android:hint="Inches"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:inputType="number"/>
     <Button
         android:id="@+id/button_calculate"
         android:text="Calculate"

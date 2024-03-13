@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 if (editText.getText().toString().isEmpty())
                 {
-                    Toast.makeText(MainActivity.this, "Please enter Inches", Toast.LENGTH_LONG).show();
+                    Toast.makeText(MainActivity.this, "Please enter value for inches", Toast.LENGTH_LONG).show();
                 }else displayResult(convertToMeters());
             }
         });
