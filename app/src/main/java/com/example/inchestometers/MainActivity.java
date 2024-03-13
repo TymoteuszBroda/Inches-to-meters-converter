@@ -29,8 +29,8 @@ private TextView textView;
 
     private void findViews()
     {
-        editText.findViewById(R.id.editText_inches);
-        button.findViewById(R.id.button_calculate);
-        textView.findViewById(R.id.textView_meters);
+        editText = findViewById(R.id.editText_inches);
+        button = findViewById(R.id.button_calculate);
+        textView = findViewById(R.id.textView_meters);
     }
 }
